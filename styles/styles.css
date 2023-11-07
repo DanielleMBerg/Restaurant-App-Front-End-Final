@@ -1,0 +1,163 @@
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  height: 400px;
+  }
+
+.card.dishes {
+    margin: 1rem;
+    flex-basis: 45%;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.card.forms {
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  height: auto;
+  width: 500px;
+  margin-left: 27%
+}
+
+.card-header {
+  text-align: center;
+  font-size: x-large;
+  background-color: lightseagreen;
+  color: black;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border-color: #0070f3;
+}
+
+.card-img {
+  height: 250px;
+}
+
+body {
+  background-color: lavender;
+}
+
+label {
+  color: black;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: black
+}
+
+.forgot {
+  margin: 10px;
+}
+
+.brand {
+  color: midnightblue;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-left: 20rem;
+  text-decoration: underline wavy purple;
+}
+
+.brand:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.nav-link.float {
+  float: right;
+}
+
+/* .cart {
+  display: grid;
+  grid-template-columns: 5;
+}
+
+.total {
+  padding-top: 10px;
+  grid-column: 5/6;
+}
+
+.list {
+  padding-top: 10px;
+  grid-column: 1/5;
+} */
+
+span {
+  margin-left: 20px;
+}
+
+.cartImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 3;
+}
+.cart-col {
+  grid-column-start: 3;
+}
+
+.paper {
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  height: 550px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 6px;
+  margin-top: 90px;
+}
+
+
+.StripeElement {
+  display: block;
+  background-color: #f8f9fa !important;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+.StripeElement.IdealBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.centered {
+  margin: 150px;
+  margin-left: 500px;
+}
+
+.google {
+  margin-left: 110px;
+}
+
+
